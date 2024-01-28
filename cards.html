@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        .column
+        {
+            float: left;
+            width: 400px;
+           
+            margin-bottom: 16px;
+            padding: 0 12px;
+        }
+
+        /* @media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  } */
+
+  .row
+  {
+   padding-left: 160px;
+
+  }
+        .card
+        {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        }
+
+        .container
+        {
+            padding: 0 16px;
+        }
+        #one
+        {
+            border-top-right-radius: 25px;
+            border-top-left-radius: 25px;
+            height: 160px;
+        }
+        p
+        {
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="row">
+        <div class="column">
+            <div class="card">
+                <img src="c1.avif" alt="lunch" width="100%">
+                <div class="container">
+                    <h1>Order online</h1>
+                    <p>Stay home and order to your doorstep</p>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="card">
+                <img src="c2.avif" alt="lunch" width="100%">
+                <div class="container">
+                    <h1>Dining</h1>
+                    <p>View the city's favourite dining venuesp</p>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="card">
+                <img src="c3.avif" alt="lunch" width="100%" id="one">
+                <div class="container">
+                    <h1>Nightlife and Clubs</h1>
+                    <p> Explore the city’s top nightlife outlets</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
